@@ -1,0 +1,6 @@
+name: Mora
+version: '${version}'
+main: erikr.mora.Mora
+api-version: 1.19
+authors: [ Erik_R ]
+description: Moderation Made Easy
