@@ -42,7 +42,7 @@ public class unfreeze implements CommandExecutor, Listener {
                                 freeze.allowclose = true;
                                 input.getOpenInventory().close();
                                 freeze.allowclose = false;
-                            }
+                            } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " The Player is not frozen!");
                         }
                     }
                 } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Wrong Arguments!");

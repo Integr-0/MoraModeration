@@ -44,7 +44,7 @@ public class freeze implements CommandExecutor, Listener {
                             sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Freezing!");
                             input.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " You Have been Frozen! Don't exit the window or you will be killed!");
                             openFreezeInventory(input);
-                        }
+                        } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Player is immune to Freezing!");
                     }
                 } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Wrong Arguments!");
             } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " No Permission!");
