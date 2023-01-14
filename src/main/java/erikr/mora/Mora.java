@@ -7,6 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class Mora extends JavaPlugin {
 
     public FileConfiguration config = getConfig();
+    public static String version = "v1.2.15";
 
     @Override
     public void onEnable() {
@@ -18,7 +19,7 @@ public final class Mora extends JavaPlugin {
         //saveConfig();
 
         //Registering Events
-        //getServer().getPluginManager().registerEvents(LISTENER, this);
+        getServer().getPluginManager().registerEvents(new freeze(), this);
 
         //Registering Commands
         this.getCommand("ec").setExecutor(new ec());
@@ -33,7 +34,9 @@ public final class Mora extends JavaPlugin {
         this.getCommand("lm").setExecutor(new lm());
         this.getCommand("sc").setExecutor(new sc());
         this.getCommand("st").setExecutor(new st());
-        this.getCommand("commands").setExecutor(new commands());
+        this.getCommand("mora").setExecutor(new mora());
+        this.getCommand("freeze").setExecutor(new freeze());
+        this.getCommand("unfreeze").setExecutor(new unfreeze());
     }
 
     @Override

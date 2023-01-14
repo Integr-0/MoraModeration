@@ -41,6 +41,12 @@ commands:
   ffn:
     description: Opens a Smoker
     usage: /<command>
-  commands:
-    description: Lists all Commands the User can use
-    usage: /<command>
+  mora:
+    description: Mora General Information
+    usage: /<command> <arg1>
+  freeze:
+    description: Stops a Player from Moving
+    usage: /<command> <arg1>
+  unfreeze:
+    description: Allows a Player to Move again
+    usage: /<command> <arg1>

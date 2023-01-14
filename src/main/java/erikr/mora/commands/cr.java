@@ -19,7 +19,7 @@ public class cr implements CommandExecutor {
 
                 if (length == 0) {
                     sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Opening!");
-                    ((Player) sender).openInventory(Bukkit.createInventory(null, InventoryType.CRAFTING));
+                    ((Player) sender).openWorkbench(null, true);
                 } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Too many Arguments!");
             } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " No Permission!");
         }
