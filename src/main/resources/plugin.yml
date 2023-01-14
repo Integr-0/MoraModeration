@@ -4,3 +4,8 @@ main: erikr.mora.Mora
 api-version: 1.19
 authors: [ Erik_R ]
 description: Moderation Made Easy
+commands:
+  ec:
+    description: Opens your Enderchest
+    usage: /<command> <arg1>
+    permission: mora.ec
