@@ -6,30 +6,18 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.event.entity.PlayerDeathEvent;
+import org.bukkit.event.inventory.InventoryType;
 
-import java.util.Collection;
-
-public class ec implements CommandExecutor {
+public class ffn implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
-            if (sender.hasPermission("mora.ec")) {
+            if (sender.hasPermission("mora.ffn")) {
                 int length = args.length;
-                Player input;
-                Collection<? extends Player> players = Bukkit.getOnlinePlayers();
 
                 if (length == 0) {
                     sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Opening!");
-                    ((Player) sender).openInventory(((Player) sender).getEnderChest());
-                } else if (length == 1) {
-                    input = Bukkit.getPlayer(args[0]);
-                    if (players.contains(input)) {
-                        if (input != null) {
-                            sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Opening!");
-                            ((Player) sender).openInventory(input.getEnderChest());
-                        }
-                    }
+                    ((Player) sender).openInventory(Bukkit.createInventory(null, InventoryType.SMOKER));
                 } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " Too many Arguments!");
             } else sender.sendMessage(ChatColor.GOLD + "[MORA]" + ChatColor.GRAY + " No Permission!");
         }

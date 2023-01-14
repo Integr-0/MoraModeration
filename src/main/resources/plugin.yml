@@ -6,6 +6,41 @@ authors: [ Erik_R ]
 description: Moderation Made Easy
 commands:
   ec:
-    description: Opens your Enderchest
+    description: Opens someones Enderchest
     usage: /<command> <arg1>
-    permission: mora.ec
+  iv:
+    description: Opens someones Inventory
+    usage: /<command> <arg1>
+  av:
+    description: Opens an Anvil
+    usage: /<command>
+  et:
+    description: Opens an Enchanting Table
+    usage: /<command>
+  cr:
+    description: Opens a Crafting Table
+    usage: /<command>
+  gs:
+    description: Opens a Grindstone
+    usage: /<command>
+  lm:
+    description: Opens a Loom
+    usage: /<command>
+  bfn:
+    description: Opens a Blast Furnace
+    usage: /<command>
+  sc:
+    description: Opens a Stone Cutter
+    usage: /<command>
+  st:
+    description: Opens a Smithing Table
+    usage: /<command>
+  fn:
+    description: Opens a Furnace
+    usage: /<command>
+  ffn:
+    description: Opens a Smoker
+    usage: /<command>
+  commands:
+    description: Lists all Commands the User can use
+    usage: /<command>
