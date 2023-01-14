@@ -8,4 +8,4 @@ Paste the .jar file into your plugins folder on your Minecraft Server.
 The Plugin will automaticly create a config under plugins/Mora/config.yml
 
 ### Features
--none right now
+-Enderchest: /ec (Player) [Opens the Enderchest of the Specified Player (running only /ec opens your own enderchest)]
