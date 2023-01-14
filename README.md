@@ -9,8 +9,8 @@ The Plugin will automaticly create a config under plugins/Mora/config.yml
 
 ### Features
 - Commands:
-  - Enderchest: /ec [Opens someones Enderchest]
-  - Inventory /iv [Opens someones Inventory]
+  - Enderchest: /ec [Opens someones Enderchest (Use "/ec PLAYER" to see the Specified Players Enderchest)]
+  - Inventory /iv [Opens someones Inventory (Use "/iv PLAYER" to see the Specified Players Inventory)]
   - Anvil /av [Opens an Anvil]
   - EnchantingTable /et [Opens an Enchanting Table]
   - Crafting /cr [Opens a Crafting Table]
@@ -21,4 +21,4 @@ The Plugin will automaticly create a config under plugins/Mora/config.yml
   - SmithingTable /st [Opens a Smithing Table]
   - Furnace /fn [Opens a Furnace]
   - Smoker /ffn [Opens a Smoker]
-  - Commands /commands: [Lists all Commands the User can use]
+  - Mora /mora: [Information about Mora (Use "/mora commands" to list all commands]
