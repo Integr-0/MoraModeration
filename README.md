@@ -9,16 +9,16 @@ The Plugin will automaticly create a config under plugins/Mora/config.yml
 
 ### Features
 - Commands:
-  - ec: Opens someones Enderchest
-  - iv: Opens someones Inventory
-  - av: Opens an Anvil
-  - et: Opens an Enchanting Table
-  - cr: Opens a Crafting Table
-  - gs: Opens a Grindstone 
-  - lm: Opens a Loom
-  - bfn: Opens a Blast Furnace
-  - sc: Opens a Stone Cutter
-  - st: Opens a Smithing Table
-  - fn: Opens a Furnace
-  - ffn: Opens a Smoker
-  - commands: Lists all Commands the User can use
+  - Enderchest: /ec [Opens someones Enderchest]
+  - Inventory /iv [Opens someones Inventory]
+  - Anvil /av [Opens an Anvil]
+  - EnchantingTable /et [Opens an Enchanting Table]
+  - Crafting /cr [Opens a Crafting Table]
+  - Grindstone /gs [Opens a Grindstone ]
+  - Loom /lm Opens a [Loom]
+  - BlastFurnace /bfn [Opens a Blast Furnace]
+  - StoneCutter /sc [Opens a Stone Cutter]
+  - SmithingTable /st [Opens a Smithing Table]
+  - Furnace /fn [Opens a Furnace]
+  - Smoker /ffn [Opens a Smoker]
+  - Commands /commands: [Lists all Commands the User can use]
