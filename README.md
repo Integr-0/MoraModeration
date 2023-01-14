@@ -21,4 +21,4 @@ The Plugin will automaticly create a config under plugins/Mora/config.yml
   - SmithingTable /st [Opens a Smithing Table]
   - Furnace /fn [Opens a Furnace]
   - Smoker /ffn [Opens a Smoker]
-  - Mora /mora: [Information about Mora (Use "/mora commands" to list all commands]
+  - Mora /mora: [Information about Mora (Use "/mora commands" to list all commands)]
