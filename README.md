@@ -15,7 +15,7 @@ The Plugin will automaticly create a config under plugins/Mora/config.yml
   - EnchantingTable /et [Opens an Enchanting Table]
   - Crafting /cr [Opens a Crafting Table]
   - Grindstone /gs [Opens a Grindstone ]
-  - Loom /lm Opens a [Opens a Loom]
+  - Loom /lm [Opens a Loom]
   - BlastFurnace /bfn [Opens a Blast Furnace]
   - StoneCutter /sc [Opens a Stone Cutter]
   - SmithingTable /st [Opens a Smithing Table]
