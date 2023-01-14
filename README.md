@@ -8,4 +8,17 @@ Paste the .jar file into your plugins folder on your Minecraft Server.
 The Plugin will automaticly create a config under plugins/Mora/config.yml
 
 ### Features
--Enderchest: /ec (Player) [Opens the Enderchest of the Specified Player (running only /ec opens your own enderchest)]
+- Commands:
+  - ec: Opens someones Enderchest
+  - iv: Opens someones Inventory
+  - av: Opens an Anvil
+  - et: Opens an Enchanting Table
+  - cr: Opens a Crafting Table
+  - gs: Opens a Grindstone 
+  - lm: Opens a Loom
+  - bfn: Opens a Blast Furnace
+  - sc: Opens a Stone Cutter
+  - st: Opens a Smithing Table
+  - fn: Opens a Furnace
+  - ffn: Opens a Smoker
+  - commands: Lists all Commands the User can use
